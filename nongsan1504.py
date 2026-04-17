@@ -56,7 +56,7 @@ def load_data(commodity_name):
             df['Date'] = pd.to_datetime(df['date'])
             df['Price'] = df['price_in_dollars'] * 26335
         else:
-            df = pd.read_csv(os.path.join(base_path, "HỒ TIÊU.csv"))
+            df = pd.read_csv(os.path.join(base_path, "ho_tieu.csv"))
             df['Date'] = pd.to_datetime(df['Date'])
             df['Price'] = pd.to_numeric(df['Price_VND_kg'], errors='coerce')
         
