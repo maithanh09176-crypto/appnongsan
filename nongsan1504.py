@@ -15,7 +15,7 @@ st.set_page_config(
     page_title="AgriDashboard | Nhóm D2T", 
     page_icon="📈", 
     layout="wide", 
-    initial_sidebar_state="expanded" # Luôn mở Sidebar khi bắt đầu
+    initial_sidebar_state="expanded" 
 )
 
 # Nhúng CSS mô phỏng Tailwind & Glassmorphism
@@ -34,7 +34,7 @@ st.markdown("""
     .kpi-title { color: #94A3B8; font-size: 0.85rem; font-weight: 600; text-transform: uppercase; letter-spacing: 1px;}
     .kpi-value { color: #F8FAFC; font-size: 2.2rem; font-weight: 800; margin: 8px 0; font-family: 'Courier New', monospace; }
     
-    /* FIX LỖI 1: Hiện lại nút Sidebar nhưng ẩn các thanh màu xám thừa của Streamlit */
+    /* GIỮ LẠI NÚT MỞ SIDEBAR (>) */
     #MainMenu {visibility: hidden;}
     footer {visibility: hidden;}
     header[data-testid="stHeader"] {
@@ -115,11 +115,9 @@ def main():
     # --- MAIN CONTENT ---
     col_header1, col_header2 = st.columns([2, 1])
     with col_header1:
-        # FIX LỖI 2: Xử lý tên hiển thị linh hoạt
-        if "Cà phê" in commodity:
-            asset_name = "cafe" # Chuyển thành cafe viết thường
-        else:
-            asset_name = ' '.join(commodity.split(' ')[1:]) # Lấy đầy đủ "Hồ tiêu"
+        # SỬA LỖI HIỂN THỊ TÊN: Lấy đầy đủ tất cả các chữ sau biểu tượng icon
+        # Ví dụ: "☕ Cà phê" -> "Cà phê", "🌶️ Hồ tiêu" -> "Hồ tiêu"
+        asset_name = ' '.join(commodity.split(' ')[1:])
             
         st.markdown(f"<h1 style='color: #F8FAFC; margin-bottom: 5px; font-weight: 800;'>Thị trường <span style='color: #38BDF8;'>{asset_name}</span></h1>", unsafe_allow_html=True)
         st.markdown("<p style='color: #64748B;'>Dữ liệu đồng bộ thời gian thực & Phân tích định lượng AI.</p>", unsafe_allow_html=True)
@@ -147,7 +145,7 @@ def main():
     with c2: render_kpi(f"Mục Tiêu AI (+{horizon}T)", forecast.iloc[-1], "Kịch bản Trọng tâm", color="#38BDF8")
     with c3: render_kpi("Ngưỡng Hỗ Trợ Đáy", lower.iloc[-1], "Ranh giới Rủi ro 95%", color="#F87171")
 
-    # --- BIỂU ĐỒ TƯƠNG TÁC (PLOTLY) ---
+    # --- BIỂU ĐỒ TƯƠNG TÁC ---
     st.markdown("<div style='background: rgba(255,255,255,0.02); border: 1px solid rgba(255,255,255,0.05); border-radius: 20px; padding: 20px;'>", unsafe_allow_html=True)
     
     fig = go.Figure()
