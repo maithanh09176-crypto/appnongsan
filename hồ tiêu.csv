@@ -1,0 +1,77 @@
+Date,Commodity,Type,Region,Price_VND_kg,Export_USD_MT,Status,Source
+2020-01-15,Pepper,Black,Dak Lak,39500,2450,Low Period,VPSA
+2020-02-15,Pepper,Black,Gia Lai,38000,2300,Slight Down,VPSA
+2020-03-31,Pepper,Black,Dak Nong,36500,2100,Historical Low,VPSA
+2020-04-15,Pepper,Black,Ba Ria,39000,2250,Recovery,Giacaphe
+2020-05-20,Pepper,Black,Binh Phuoc,45000,2400,Strong Up,Giacaphe
+2020-06-15,Pepper,Black,Dak Lak,52000,2600,Peak Period,VPSA
+2020-07-15,Pepper,Black,Gia Lai,48500,2500,Adjusted,VPSA
+2020-08-15,Pepper,Black,Dak Nong,48000,2450,Stable,Giacaphe
+2020-09-15,Pepper,Black,Ba Ria,49500,2550,Slight Up,VPSA
+2020-10-15,Pepper,Black,Binh Phuoc,51500,2650,Stable,Giacaphe
+2020-11-15,Pepper,Black,Dak Lak,53000,2750,Upward Trend,VPSA
+2020-12-25,Pepper,Black,Ba Ria,56500,2850,Year-end Peak,VPSA
+2021-01-15,Pepper,Black,Dak Lak,51000,2850,Stable,VPSA
+2021-02-25,Pepper,Black,Gia Lai,54500,2900,Slight Up,VPSA
+2021-03-15,Pepper,Black,Ba Ria,70000,3200,Strong Surge,Giacaphe
+2021-04-20,Pepper,Black,Binh Phuoc,72000,3350,Upward Trend,VPSA
+2021-05-15,Pepper,Black,Dak Nong,68000,3150,Adjusted,Giacaphe
+2021-06-30,Pepper,Black,Dak Lak,75000,3500,Peak Period,VPSA
+2021-07-15,Pepper,Black,Ba Ria,73000,3450,Stable,Giacaphe
+2021-08-15,Pepper,Black,Binh Phuoc,78000,3700,Supply Shortage,VPSA
+2021-09-30,Pepper,Black,Dak Lak,81000,3900,Breakthrough,VPSA
+2021-10-25,Pepper,Black,Gia Lai,88000,4200,5-year High,Giacaphe
+2021-11-15,Pepper,Black,Ba Ria,85000,4100,Slight Down,VPSA
+2021-12-30,Pepper,Black,Dak Lak,80500,3950,Year-end Stable,VPS
+2022-01-15,Pepper,Black,Dak Lak,81000,4050,High Level,VPSA
+2022-02-25,Pepper,Black,Ba Ria,85000,4200,Year-end Peak,Giacaphe
+2022-03-15,Pepper,Black,Gia Lai,82000,4100,Stable,VPSA
+2022-04-15,Pepper,Black,Binh Phuoc,79000,3950,Slight Down,Giacaphe
+2022-05-15,Pepper,Black,Dak Nong,77500,3850,Down Trend,VPSA
+2022-06-20,Pepper,Black,Dak Lak,72000,3600,Adjusted,Giacaphe
+2022-07-15,Pepper,Black,Ba Ria,70500,3550,Stable,VPSA
+2022-08-25,Pepper,Black,Dak Lak,68000,3450,Pressure,Giacaphe
+2022-09-15,Pepper,Black,Binh Phuoc,66500,3300,Slight Down,VPSA
+2022-10-31,Pepper,Black,Gia Lai,58000,2950,Deep Drop,VPSA
+2022-11-15,Pepper,Black,Dak Nong,59500,3100,Recovery,Giacaphe
+2022-12-25,Pepper,Black,Ba Ria,59000,3050,Low Level,VPSA
+2023-01-15,Pepper,Black,Dak Lak,59500,3100,Stable,VPSA
+2023-02-28,Pepper,Black,Gia Lai,64500,3350,Slight Up,Giacaphe
+2023-03-15,Pepper,Black,Ba Ria,66500,3450,Recovery,VPSA
+2023-04-20,Pepper,Black,Binh Phuoc,65000,3400,Stable,Giacaphe
+2023-05-15,Pepper,Black,Dak Nong,69500,3600,Upward Trend,VPSA
+2023-06-25,Pepper,Black,Dak Lak,71000,3750,High Level,Giacaphe
+2023-07-15,Pepper,Black,Gia Lai,68500,3650,Adjusted,VPSA
+2023-08-15,Pepper,Black,Ba Ria,71500,3800,Stable,Giacaphe
+2023-09-20,Pepper,Black,Binh Phuoc,72000,3850,Slight Up,VPSA
+2023-10-31,Pepper,Black,Dak Nong,69000,3700,Slight Down,Giacaphe
+2023-11-15,Pepper,Black,Dak Lak,70500,3800,Recovery,VPSA
+2023-12-25,Pepper,Black,Ba Ria,81000,4200,Year-end Surge,VPSA
+2024-01-15,Pepper,Black,Dak Lak,82000,3950,Stable,VPSA
+2024-02-25,Pepper,Black,Gia Lai,91000,4100,Strong Up,Giacaphe
+2024-03-15,Pepper,Black,Dak Nong,95000,4250,Main Harvest,VPSA
+2024-04-20,Pepper,Black,Ba Ria,98000,4342,Upward Trend,Giacaphe
+2024-05-15,Pepper,Black,Binh Phuoc,102000,4500,Breakthrough,VPSA
+2024-06-12,Pepper,Black,Dak Lak,160000,6000,Historical Peak,Giacaphe
+2024-07-15,Pepper,Black,Ba Ria,150000,5800,Adjusted,VPSA
+2024-08-25,Pepper,Black,Dak Nong,145000,5700,High Level,Giacaphe
+2024-09-15,Pepper,Black,Gia Lai,152000,6100,Slight Up,VPSA
+2024-10-20,Pepper,Black,Binh Phuoc,148000,6000,Stable,Giacaphe
+2024-11-15,Pepper,Black,Dak Lak,142000,5900,Slight Down,VPSA
+2024-12-25,Pepper,Black,Ba Ria,145000,6150,Year-end High,VPSA
+2025-01-15,Pepper,Black,Dak Lak,155000,6200,Strong Increase,VPSA
+2025-02-28,Pepper,Black,Gia Lai,150000,6000,Main Harvest,Giacaphe
+2025-03-15,Pepper,Black,Dak Nong,148000,5900,Stable,VPSA
+2025-04-20,Pepper,Black,Ba Ria,152000,6100,Upward Trend,Giacaphe
+2025-05-15,Pepper,Black,Binh Phuoc,158000,6300,Supply Shortage,VPSA
+2025-06-25,Pepper,Black,Dak Lak,162000,6500,Annual Peak,Giacaphe
+2025-07-15,Pepper,Black,Gia Lai,155000,6200,Adjusted,VPSA
+2025-08-15,Pepper,Black,Dak Nong,153000,6150,High Level,Giacaphe
+2025-09-20,Pepper,Black,Ba Ria,148000,5950,Slight Down,VPSA
+2025-10-31,Pepper,Black,Binh Phuoc,145000,5800,Stable,Giacaphe
+2025-11-15,Pepper,Black,Dak Lak,142000,5750,Low Demand,VPSA
+2025-12-25,Pepper,Black,Dak Nong,144000,5850,Year-end Stable,VPSA
+2026-01-15,Pepper,Black,Dak Lak,145000,5900,New Crop,VPSA
+2026-02-25,Pepper,Black,Gia Lai,140000,5700,Main Harvest,Giacaphe
+2026-03-20,Pepper,Black,Binh Phuoc,138000,5600,Slight Down,VPSA
+2026-04-17,Pepper,Black,Dak Lak,141000,5850,Stable,VPSA
